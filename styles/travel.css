@@ -441,6 +441,41 @@ padding: 0px 625px 110px 625px;
 font-size: 32px;
 font-weight: 800;
     }
+    #it{
+        padding-left: 20px;
+        
+    }
+    .nav-list{
+        color: var(--Dark-02, #424247);
+text-align: center;
+font-size: 18px;
+font-weight: 400;
+text-decoration: none;
+list-style: none;
+
+
+    }
+    .nav-item{
+        display: flex;
+        width: 400px;
+        height: 40px;
+        justify-content: space-between;
+        
+        
+    }
+    .navigation{
+       display: flex; 
+       align-items: center;
+      
+      
+    }
+    #home{
+        color: #FF5400;
+text-align: center;
+
+font-size: 18px;
+font-weight: 700;
+    }
         
 
     
@@ -699,6 +734,11 @@ height: 20px;
     padding-left: 50px;
     padding-bottom: 10px;
     
+}
+
+.navigation{
+    flex-direction: column;
+    width: 300px;
 }
 
  
