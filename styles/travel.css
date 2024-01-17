@@ -384,6 +384,63 @@ font-weight: 400;}
 font-size: 32px;
 font-weight: 800;
 }
+
+
+/* footer related styles */
+.icon-tittle{
+    display: flex;
+    align-items: center;
+  padding: 10px 600px 0px 600px;
+  
+}
+.footer-tittle{
+    color: var(--Dark-01, #131318);
+width: 204px;
+height: 40px;
+font-size: 32px;
+font-weight: 800;
+    }
+    .tittle-icon{
+        width: 40px;
+height: 46.673px;
+flex-shrink: 0;
+    }
+    .footer-description{
+        color: #5A5A5D;
+text-align: center;
+width: 770px;
+height: 52px;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px; 
+padding: 0px 335px 0px 335px;
+    }
+    .footer{
+        background: rgba(19, 19, 24, 0.05);
+        width: 1440px;
+height: auto;
+flex-shrink: 0;
+    }
+    #media{
+        padding: 0px 630px;
+    }
+    #Hr{
+        width: 872px;
+    }
+    .reserved{
+        color: #5A5A5D;
+width: 300px;
+height: 20px;
+font-size: 16px;
+font-weight: 300;
+padding: 0px 625px 110px 625px;
+    }
+    #Travel{
+        color: #FF5400;
+
+font-size: 32px;
+font-weight: 800;
+    }
         
 
     
@@ -603,6 +660,45 @@ height: 20px;
     height: 27px;
     font-size: 20px;
 
+}
+
+.footer{
+    width: 375px;
+    height: 309px;
+}
+.tittle-icon{
+    width: 30px;
+    height: 30px;
+}
+.footer-tittle{
+    width: 500px;
+    height: 27px;
+    font-size:20px ;
+}
+.footer-description{
+    width: 287px;
+    height: 96px;
+    padding-left: 50px;
+}
+.icon-tittle{
+    padding-left: 100px;
+    width: 200px;
+}
+#media{
+    padding-left: 80px;
+    margin-top: 30px;
+
+}
+#Hr{
+    width: 335px;
+}
+#Travel{
+    font-size: 20px;
+}
+.reserved{
+    padding-left: 50px;
+    padding-bottom: 10px;
+    
 }
 
  
